@@ -1,0 +1,43 @@
+Company Initworks = new Company
+                {
+                    Name = "Initworks bv",
+                    Address = "Lloydstraat 5, Rotterdam",
+                    Employees = new System.Collections.Generic.List<Employee>
+                    {
+                        new Employee
+                        {
+                            Name = "Richard Auguspurgert",
+                            SSN = "0632159735"
+                        },
+                        new Employee
+                        {
+                            Name = "Wim",
+                            SSN = "2498637105"
+                        },
+                        new Employee
+                        {
+                            Name = "Jordy Leffers",
+                            SSN = "83125146054"
+                        }
+
+                    }
+                };
+
+                Company hoppinger = new Company
+                {
+                    Name = "Hoppinger",
+                    Address = "Lloydstraat 114, Rotterdam",
+                    Employees = new System.Collections.Generic.List<Employee>
+                    {
+                        new Employee
+                        {
+                            Name = "Guiseppi",
+                            SSN = "8654983215"
+                        },
+                        new Employee
+                        {
+                            Name = "Allon de Veen",
+                            SSN = "0197536485"
+                        }
+                    }
+                };
