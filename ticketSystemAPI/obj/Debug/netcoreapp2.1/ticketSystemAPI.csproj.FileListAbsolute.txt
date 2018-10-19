@@ -1,0 +1,14 @@
+C:\Users\Jordy\Documents\GitHub\devPracticum\ticketSystemAPI\bin\Debug\netcoreapp2.1\ticketSystemAPI.deps.json
+C:\Users\Jordy\Documents\GitHub\devPracticum\ticketSystemAPI\bin\Debug\netcoreapp2.1\ticketSystemAPI.runtimeconfig.json
+C:\Users\Jordy\Documents\GitHub\devPracticum\ticketSystemAPI\bin\Debug\netcoreapp2.1\ticketSystemAPI.runtimeconfig.dev.json
+C:\Users\Jordy\Documents\GitHub\devPracticum\ticketSystemAPI\bin\Debug\netcoreapp2.1\ticketSystemAPI.dll
+C:\Users\Jordy\Documents\GitHub\devPracticum\ticketSystemAPI\bin\Debug\netcoreapp2.1\ticketSystemAPI.pdb
+C:\Users\Jordy\Documents\GitHub\devPracticum\ticketSystemAPI\obj\Debug\netcoreapp2.1\ticketSystemAPI.csprojAssemblyReference.cache
+C:\Users\Jordy\Documents\GitHub\devPracticum\ticketSystemAPI\obj\Debug\netcoreapp2.1\ticketSystemAPI.csproj.CoreCompileInputs.cache
+C:\Users\Jordy\Documents\GitHub\devPracticum\ticketSystemAPI\obj\Debug\netcoreapp2.1\ticketSystemAPI.RazorAssemblyInfo.cache
+C:\Users\Jordy\Documents\GitHub\devPracticum\ticketSystemAPI\obj\Debug\netcoreapp2.1\ticketSystemAPI.RazorAssemblyInfo.cs
+C:\Users\Jordy\Documents\GitHub\devPracticum\ticketSystemAPI\obj\Debug\netcoreapp2.1\ticketSystemAPI.AssemblyInfoInputs.cache
+C:\Users\Jordy\Documents\GitHub\devPracticum\ticketSystemAPI\obj\Debug\netcoreapp2.1\ticketSystemAPI.AssemblyInfo.cs
+C:\Users\Jordy\Documents\GitHub\devPracticum\ticketSystemAPI\obj\Debug\netcoreapp2.1\ticketSystemAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Jordy\Documents\GitHub\devPracticum\ticketSystemAPI\obj\Debug\netcoreapp2.1\ticketSystemAPI.dll
+C:\Users\Jordy\Documents\GitHub\devPracticum\ticketSystemAPI\obj\Debug\netcoreapp2.1\ticketSystemAPI.pdb
