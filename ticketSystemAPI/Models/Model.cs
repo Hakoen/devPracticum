@@ -41,6 +41,13 @@ namespace ticketSystemAPI.Models
         
         public List<EmployeeTask> Tasks { get; set; } 
         public int CompanyID { get; set; }
+
+        public Employee (string SSN, string Name, int CompanyID)
+        {
+            this.SSN = SSN;
+            this.Name = Name;
+            this.CompanyID = CompanyID;
+        }
     }
 
     public class Company

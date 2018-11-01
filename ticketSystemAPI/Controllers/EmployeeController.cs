@@ -29,15 +29,17 @@ namespace ticketSystemAPI.Controllers
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public Employee Get(int id)
         {
-            return "value";
+            return _context.Employee.Find(id);
         }
 
         // POST api/values
         [HttpPost]
         public void Post([FromBody] string value)
         {
+            Employee piet = new Employee(_ssn, name, company)
+            retrun _context.Add(piet);
         }
 
         // PUT api/values/5
