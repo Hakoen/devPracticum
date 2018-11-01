@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ticketSystemAPI.Models; //De namespace van de models
+using ticketSystemAPI_Models; //De namespace van de models
 
-namespace ticketSystemAPI.Controllers
+namespace employee_Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -36,10 +36,18 @@ namespace ticketSystemAPI.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public StatusCodeResult Post([FromBody] Employee newEmployee)
         {
-            Employee piet = new Employee(_ssn, name, company)
-            retrun _context.Add(piet);
+            try
+            {
+                _context.Add(newEmployee);
+                _context.SaveChanges();
+                return Ok();
+            } 
+            catch 
+            {
+                return BadRequest();
+            }
         }
 
         // PUT api/values/5

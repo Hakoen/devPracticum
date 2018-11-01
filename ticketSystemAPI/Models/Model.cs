@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace ticketSystemAPI.Models
+namespace ticketSystemAPI_Models
 {
     public class ticketSystemContext : DbContext
     {
