@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ticketSystemAPI_Models; //De namespace van de models
+using restserver_paginator;
+using ExtensionMethods;
 
 namespace employee_Controllers
 {
@@ -25,6 +27,15 @@ namespace employee_Controllers
         public IEnumerable<Employee> Get()
         {
             return _context.Employee.ToList ();
+        }
+
+        [HttpGet("GetEmployeesPaged/{page_index}/{page_size}")]
+        public IActionResult GetAllEmployees(int page_index, int page_size)
+        {
+            var res = _context.Employee.GetPage<Employee>(page_index, page_size, a => a.ID);
+            if (res == null) return NotFound();
+
+            return Ok(res);
         }
 
         // GET api/values/5
